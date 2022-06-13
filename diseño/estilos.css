@@ -1,0 +1,165 @@
+body{
+        background:#D0FA58;
+}
+h1{
+        color: #0B173B;
+        font-family: Arial;
+        font-size: 50px;
+        text-align: center;
+}
+p{
+        color: blue;
+        font-family: Arial;
+        font-size: 10px;
+        text-align: center;
+        font-weight: bold;
+        font-style: italic;
+}
+tr{
+        color: #0B173B;
+        font-family: Arial;
+        font-size: 50px;
+        text-align: center;
+        background-color: #D0FA58;
+        border-color: black;
+        border-style: solid;
+        
+}
+th{
+        color: #0B173B;
+        font-family: Arial;
+        font-size: 50px;
+        text-align: center;
+        background-color: #D0FA58;
+        border-color: black;
+        border-style: solid;
+}        
+td{
+        color: #0B173B;
+        font-family: Arial;
+        font-size: 50px;
+        text-align: center;
+        background-color: #D0FA58;
+        border-color: black;
+        border-style: solid;
+}
+
+/*la clase para quitar el borde y fondo a las tablas*/
+.sin{
+        border: 0;
+        border-style: transparent;
+        background-color: transparent;
+}
+/*la clase para modificar la imagen de logo*/
+.logo{
+        width: 400px; 
+}
+/*la clase para modificar las imagenes de la pagina principal*/
+.mar{
+        height: 250px; 
+}
+/*la clase para modificar las imagenes de los iconos*/
+.ico{
+        height: 150px;
+        width: 150px; 
+}
+/*la clase para modificar texto de la pagina Historia*/
+.titu{
+        color: black;
+        font-family: Arial;
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+        font-style: italic;
+}
+.font{
+        color: #0B173B;
+        font-family: Arial;
+        font-size: 15px;
+        text-align: center;
+        font-weight: bold;
+        font-style: italic;
+}
+/*la clase para modificar pagina producto*/
+.pro{
+        height: 250px;
+        width: 300px; 
+}
+.tab{
+        color: #0B173B;
+        text-align: center;
+        font-family: Arial;
+        font-size: 15px;
+        font-weight: bold;
+        font-style: italic;
+        border: 2;
+        border-color: black;
+        border-style: solid;
+        margin-left: auto;
+        margin-right: auto;-
+        border-collapse: collapse;
+        background:#AEB404;
+}
+/* La clase para la primera parte*/
+.div1{
+	background: linear-gradient(to bottom,#AEB404,#086A87);
+	border-radius: 20px ;
+	border: 5px solid#;
+}
+.div2{
+	background: linear-gradient(to bottom,#FFFF00,#0B615E);
+	border-radius: 20px ;
+	border: 5px solid#;
+}
+.div3{
+	background: linear-gradient(to bottom,#D7DF01,#01DFD7);
+	border-radius: 20px ;
+	border: 5px solid#;
+}
+.div4{
+	background: linear-gradient(to bottom,#AEB404,#01A9DB);
+	border-radius: 20px ;
+	border: 5px solid#;
+}
+.caja{
+	height: 300px;
+	width: 250px;
+	background: 1px solid #8A4B08;
+	margin:5px;
+	color: black;
+	text-align: center;
+	font-family:"lato", san-serif;
+	display:inline-block;
+}
+.caja:hover{
+	/*agregar spmbra al div/
+	/*  x y radio color*/
+	box-shadow:0 0 10px blue;
+	/* cambia la escala del tamaño de la caja*/
+	transform: scale (1.3);
+
+}
+.caja-texto{
+	padding-bottom: 5p;
+	padding-top: 2px;
+	font-size:30px;
+	color:black;
+	font-weight:bold;
+}
+.texto-adicional{
+	padding-top:5x;
+	font-size:25px:
+	
+}
+@font-face{
+	font-family:"goth";
+	src:url(squealer_embossed.ttf);
+}
+
+#fuente-google{
+	font-family: 'Oswald', sans-serif;
+}
+
+#fuente-squearler{
+	font-family:"goth";
+}
